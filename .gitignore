@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+# Simulation / synthesis outputs
+*.vvp
+*.vcd
+*.wlf
+*.fst
+*.bak
+work/
+*.qdb
+*.qpg
+*.qtl
+*.mti
+*.mpf
+*.jou
+*.log
+*.str
+vivado_project/
+.Xil/
+*.runs/
+*.cache/
+*.sim/
+*.hw/
+*.ip_user_files/
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Secrets
+.env
+.env.*
+!.env.example
